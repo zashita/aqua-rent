@@ -1,0 +1,18 @@
+.Navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--inverted-bg-color);
+    height: var(--navbar-height);
+    justify-content: center;
+    gap: 20px;
+}
+
+.Button {
+    color: var(--inverted-primary-color)
+}
+
+.Text {
+    color: var(--primary-color)
+}
