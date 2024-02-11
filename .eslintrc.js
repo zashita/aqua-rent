@@ -39,6 +39,9 @@ module.exports = {
         "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
         "react-hooks/exhaustive-deps": "error",// Checks effect dependencies
         "no-param-reassign":"off",
+        "arrow-body-style": "off",
+        'object-curly-spacing': "error",
+        'react/self-closing-comp': "off",
     },
     globals: {
         __IS_DEV__: true,
