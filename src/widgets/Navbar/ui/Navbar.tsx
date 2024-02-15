@@ -31,7 +31,7 @@ export const Navbar:React.FC<NavbarProps> = ({ className }) => {
                 {t('О сайте')}
             </AppLink>
             <Button
-                theme={ButtonThemes.CLEAN}
+                theme={ButtonThemes.CLEAR}
                 className={cls.Button}
                 onClick={toggleModal}
             >

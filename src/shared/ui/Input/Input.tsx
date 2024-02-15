@@ -18,6 +18,7 @@ export const Input = (props: InputProps) => {
         onChange,
         type = 'text',
         autofocus,
+        ...otherProps
     } = props;
 
     const ref = useRef<HTMLInputElement>();
@@ -46,7 +47,7 @@ export const Input = (props: InputProps) => {
                 type={type}
                 className={cls.Input}
                 ref={ref}
-
+                {...otherProps}
             />
         </div>
 

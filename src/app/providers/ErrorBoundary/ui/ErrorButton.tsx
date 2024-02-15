@@ -20,7 +20,7 @@ export const ErrorButton: React.FC<ErrorButtonProps> = ({ className }) => {
     }, [error]);
     return (
         <Button
-            theme={ButtonThemes.DEFAULT}
+            theme={ButtonThemes.OUTLINE}
             onClick={throwError}
         >
             {t('Ошибка')}
